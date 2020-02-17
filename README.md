@@ -5,8 +5,11 @@
 This is a collection of plugins for [Workcraft](https://workcraft.org/)
 that are used as examples in the
 [plugin development tutorial](https://workcraft.org/devel/plugin/start).
-Note that each plugin is included as a submodule and, if necessary, can
-be used independently.
+
+Plugins are included as submodules and, if necessary, can be used independently.
+Here is the list of included plugins and links to their repos:
+  * Directet graph -- [workcraft-plugin-example-graph](https://github.com/workcraft/workcraft-plugin-example-graph)
+  * Peti net -- [workcraft-plugin-example-petri](https://github.com/workcraft/workcraft-plugin-example-petri)
 
 Suggested usage:
 
