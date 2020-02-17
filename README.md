@@ -1,4 +1,4 @@
-# workcraft-plugins-example
+# Workcraft plugins for plugin development tutorial
 
 ![Repo size](https://img.shields.io/github/repo-size/workcraft/workcraft-plugins-example.svg)
 
@@ -9,7 +9,7 @@ that are used as examples in the
 Plugins are included as submodules and, if necessary, can be used independently.
 Here is the list of included plugins and links to their repos:
   * Directet graph -- [workcraft-plugin-example-graph](https://github.com/workcraft/workcraft-plugin-example-graph)
-  * Peti net -- [workcraft-plugin-example-petri](https://github.com/workcraft/workcraft-plugin-example-petri)
+  * Petri net -- [workcraft-plugin-example-petri](https://github.com/workcraft/workcraft-plugin-example-petri)
 
 Suggested usage:
 
@@ -17,7 +17,7 @@ Suggested usage:
    as instructed in [workcraft](https://github.com/workcraft/workcraft) repo.
 
 2. Clone example plugins repo with all submodules in ``workcraft-plugins-example``
-   at the same level of hierarchy as ``workcraft`` directory:
+   directory at the same level of hierarchy as ``workcraft`` directory:
    ```
    git clone --recursive https://github.com/workcraft/workcraft-plugins-example.git
     ```
