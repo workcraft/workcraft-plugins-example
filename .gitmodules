@@ -1,6 +1,6 @@
-[submodule "_GraphPlugin"]
-	path = GraphPlugin
+[submodule "GraphPlugin"]
+	path = GraphExamplePlugin
 	url = git@github.com:workcraft/workcraft-plugin-example-graph.git
-[submodule "_PetriPlugin"]
-	path = PetriPlugin
+[submodule "PetriPlugin"]
+	path = PetriExamplePlugin
 	url = git@github.com:workcraft/workcraft-plugin-example-petri.git

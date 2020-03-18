@@ -8,7 +8,7 @@ that are used as examples in the
 
 Plugins are included as submodules and, if necessary, can be used independently.
 Here is the list of included plugins and links to their repos:
-  * Directet graph -- [workcraft-plugin-example-graph](https://github.com/workcraft/workcraft-plugin-example-graph)
+  * Directed graph -- [workcraft-plugin-example-graph](https://github.com/workcraft/workcraft-plugin-example-graph)
   * Petri net -- [workcraft-plugin-example-petri](https://github.com/workcraft/workcraft-plugin-example-petri)
 
 Suggested usage:
@@ -16,18 +16,12 @@ Suggested usage:
 1. If has not been done yet, setup Workcraft development directory ``workcraft``
    as instructed in [workcraft](https://github.com/workcraft/workcraft) repo.
 
-2. Clone example plugins repo with all submodules in ``workcraft-plugins-example``
-   directory at the same level of hierarchy as ``workcraft`` directory:
+2. Go to ``workcraft`` directory and clone example plugins repo with all
+   submodules in ``workcraft-plugins-example`` directory:
    ```
-   git clone --recursive https://github.com/workcraft/workcraft-plugins-example.git
-    ```
+   git clone --recursive git@github.com:workcraft/workcraft-plugins-example.git
+   ```
 
-3. In ``workcraft`` directory create symbolic links to the specific example
-   plugins that you plan to use, e.g.:
-    ````
-    ln -s ../workcraft-plugins-example/_PetriPlugin
-    ````
-
-Note that ``_`` prefix of the plugin directory prevents it from propagating to
-[workcraft](https://github.com/workcraft/workcraft) repo and to Workcraft
-binary distribution.
+Note that ``/workcraft-*/`` is prevented from propagating to
+[workcraft](https://github.com/workcraft/workcraft) repo and
+to Workcraft binary distribution.
